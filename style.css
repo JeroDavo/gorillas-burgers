@@ -1,0 +1,241 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #121212;
+    color: white;
+    font-family: "Inter Tight", sans-serif;
+    margin: 0;
+    padding: 20px;
+    height: 100vh;
+}
+
+
+.cTitulo{
+    text-align: center;
+    margin-bottom: 0px;
+    background-color: #1e1e1e;
+    margin-left: 135px;
+    margin-right: 135px;
+    padding-bottom: 15px;
+    padding-top: 35px;
+    border-left: 1px;
+    border-left-style: solid;
+    border-left-color: #333333;
+    border-right: 1px;
+    border-right-style: solid;
+    border-right-color: #333333;
+    border-top: 1px;
+    border-top-style: solid;
+    border-top-color: #333333;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.imgTitulo{
+    height: 45px;
+}
+
+h1{
+    color: #ffb703;
+    margin-bottom: 5px;
+}
+
+#subtexto{
+    color: #918e8e;
+}
+
+  
+.cG{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #1e1e1e;
+    margin-top: 0px;
+    border-top: 2px;
+    border-top-style: solid;
+    border-top-color: #ffb703;
+    border-left: 1px;
+    border-left-style: solid;
+    border-left-color: #333333;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #333333;
+    border-right: 1px;
+    border-right-style: solid;
+    border-right-color: #333333;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+
+
+.cM{
+    background-color: #1e1e1e;
+    border-right: 2px;
+    border-right-style: solid;
+    border-right-color: #333333;
+    padding: 25px;
+    padding-bottom: 98px;
+    flex: 1;
+}
+
+.clasicaBurger{
+    display: flex;
+    background-color: rgba(80, 79, 79, 0.144);
+    border: 2px;
+    border-style: none;
+    border-color: #333333;
+    padding: 20px;
+    margin: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 4px;
+}
+
+.menuImg{
+    display: flex;
+    background-color: rgba(80, 79, 79, 0.144);
+    border: 2px;
+    border-style: none;
+    border-color: #333333;
+    padding: 20px;
+    margin: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 4px;
+}
+
+.imgProducto{
+    height: 20px;
+}
+
+#burgerImg{
+    margin-right: 5px;
+}
+
+#tocinoImg{
+    margin-right: 5px;
+}
+
+.cC{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #1e1e1e;
+    border-right: 2px;
+    border-right-style: solid;
+    border-right-color: #333333;
+    padding: 25px;
+    padding-bottom: 28px;
+    flex: 1;
+}
+
+.cT{
+    background-color: #1e1e1e;
+    padding: 25px;
+    padding-bottom: 115px;
+    flex: 1;
+}
+
+h3{
+    color: #ffb703;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #333333;
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+#nombreCliente{
+    padding: 10px;
+    background-color: #444343;
+    border-style: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    color: white;
+}
+
+#nombreCliente::placeholder{
+    color: #918e8e;
+}
+
+#BurgerSelect{
+    border-style: none;
+    border-radius: 4px;
+    background-color: #444343;
+    color: white;
+    padding: 1px;
+}
+
+#cantidad{
+    border-style: none;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #444343;
+    color: #918e8e;
+}
+
+#btnAgregar{
+    background-color: #ffb703;
+    color: #121212;
+    border-style: none;
+    border-radius: 4px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    transition: transform 0.1s ease, background-color 0.5s ease-in-out;
+}
+
+#btnAgregar:hover{
+    background-color: #2690c6;
+}
+
+#btnAgregar:active{
+    transform: scale(0.96);
+}
+
+#productosAgregados{
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    border-bottom: 4px;
+    border-bottom-style: dashed;
+    border-bottom-color: #918e8e2f;
+}
+
+#totalFinal{
+    display: flex;
+    justify-content: right;
+    margin-top: 6px;
+}
+
+#btnPedido{
+    display: block;
+    width: 100%;
+    background-color: rgb(55, 238, 55);
+    border-style: none;
+    border-radius: 4px;
+    padding: 12px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: whitesmoke;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+#btnPedido:hover{
+    background-color: #2690c6;
+}
+
+#btnPedido:active{
+    transform: scale(0.96);
+}
