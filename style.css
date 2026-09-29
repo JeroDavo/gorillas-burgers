@@ -82,7 +82,7 @@ h1{
     border-right-style: solid;
     border-right-color: #333333;
     padding: 25px;
-    padding-bottom: 98px;
+    padding-bottom: 123px;
     flex: 1;
 }
 
@@ -99,6 +99,10 @@ h1{
     border-radius: 4px;
 }
 
+.clasicaBurger:hover{
+    background-color: #918e8e1c;
+}
+
 .menuImg{
     display: flex;
     background-color: rgba(80, 79, 79, 0.144);
@@ -110,6 +114,10 @@ h1{
     margin-left: 0px;
     margin-right: 0px;
     border-radius: 4px;
+}
+
+.menuImg:hover{
+    background-color: #918e8e1c;
 }
 
 .imgProducto{
@@ -133,7 +141,7 @@ h1{
     border-right-style: solid;
     border-right-color: #333333;
     padding: 25px;
-    padding-bottom: 28px;
+    padding-bottom: 115px;
     flex: 1;
 }
 
@@ -144,7 +152,7 @@ h1{
     flex: 1;
 }
 
-h3{
+h2{
     color: #ffb703;
     border-bottom: 1px;
     border-bottom-style: solid;
@@ -206,7 +214,7 @@ h3{
 #productosAgregados{
     display: flex;
     flex-direction: column;
-    padding: 70px;
+    padding: 65px;
     border-bottom: 4px;
     border-bottom-style: dashed;
     border-bottom-color: #918e8e2f;
@@ -216,17 +224,20 @@ h3{
     display: flex;
     justify-content: right;
     margin-top: 6px;
+    color: #ffb703;
+    font-size: x-large;
 }
 
 #btnPedido{
     display: block;
     width: 100%;
-    background-color: rgb(55, 238, 55);
+    background-color: rgb(48, 211, 48);
     border-style: none;
     border-radius: 4px;
     padding: 12px;
     margin-top: 10px;
     font-weight: bold;
+    font-size: large;
     color: whitesmoke;
     transition: all 0.5s ease-in-out;
     cursor: pointer;
